@@ -50,7 +50,7 @@ describe Vandamme::Parser do
         "0.9.15" => "<ul><li>\n<p>Save a received MessageID in message headers.</p>\n</li></ul>\n",
         "0.9.14" => "<ul><li>\n<p>Parse Subject and MessageID from the Bounce API response.</p>\n</li></ul>\n",
         "0.9.13" => "<ul><li>\n<p>Added error_code to DeliveryError</p>\n</li><li>\n<p>Added retries for Timeout::Error</p>\n</li></ul>\n",
-        "0.9.12" => "<ul><li>\n<p>Fixed a problem of attachments processing when using deliver! method on\nMail object.</p>\n</li><li>\n<p>Removed activesupport dependency for Postmark::AttachmentsFixForMail.</p>\n</li><li>\n<p>Added specs for AttachmentFixForMail.</p>\n</li></ul>\n",
+        "0.9.12" => "<ul><li>\n<p>Fixed a problem of attachments processing when using deliver! method on Mail object.</p>\n</li><li>\n<p>Removed activesupport dependency for Postmark::AttachmentsFixForMail.</p>\n</li><li>\n<p>Added specs for AttachmentFixForMail.</p>\n</li></ul>\n",
         "0.9.11" => "<ul><li>\n<p>Replaced Jeweler by Bundler.</p>\n</li><li>\n<p>Updated RSpec to 2.8.</p>\n</li><li>\n<p>Fixed specs.</p>\n</li><li>\n<p>Refactored the codebase.</p>\n</li></ul>\n"
       }
     }
